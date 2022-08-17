@@ -49,8 +49,36 @@ li a:hover{
   width: 400px;
   height: 100px;
   background-color: black;
+  top: 45px
+  left: 0;
+  margin: 20px;
+  border-color: blue;
+
+
+
+
+
+
 }
 #bola {
   width: 100px;
   height: 100px;
+}
+.rodape {
+  position:absolute
+  width: 100%;
+  heigth: 50px;
+  color: white
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content:center;
+}
+.conteudoHome {
+  position:absolute
+  top:  45px;
+}
+
+
+
 }
