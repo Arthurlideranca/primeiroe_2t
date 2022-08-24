@@ -1,84 +1,86 @@
 body {
-  background:rgb(255, 169, 169);
+  background: rgb(97, 233, 226);
 }
 h1 {
   text-align: center;
 }
 /*
-  position: absolute;
-  position: fixed;
-  position: sticky;
+   position: absolute;
+   position: fixed;
+   position: sticky;
 */
 .caixa1 {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background:rgb(126, 201, 247);
-  left: 50px;
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background: #b9f8f8;
+   left: 50px;
 }
 .menuPrincipal {
-  position: absolute;
-  background: rgb(130, 255, 186);
+  position: absolute; 
+  background: rgb(192, 6, 199);
   width: 100%;
-  height: 30px;
+  height: 45px;
   top: 0;
 }
-nav ul{
-  list-style-type: none ;
+nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: 0;
 }
-li{
+li {
   float: left;
 }
-li a{
+li a {
   display: block;
-  color: rgb(168, 75, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
-  padding: 14px 16px ;
+  padding: 14px 16px;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
 }
-li a:hover{
- background-color: rgb(151, 49, 151);
- color: violet;
+li a:hover {
+  background: rgb(9, 241, 230);
+  color: rgb(13, 23, 158);
 }
-.boximag {
-  position:absolute;
-  width: 400px;
-  height: 100px;
-  background-color: black;
-  top: 45px
+.boxImage {
+  position: absolute;
+  width: 90%;
+  height: 80px;
+  background: rgb(107, 2, 42);
+  top: 45px;
   left: 0;
   margin: 20px;
-  border-color: blue;
-
-
-
-
-
-
+  border-color: rgb(172, 57, 114);
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
-#bola {
-  width: 100px;
-  height: 100px;
+#bola { 
+   width: 80px;
+   height: 80px;
 }
 .rodape {
-  position:absolute
-  width: 100%;
-  heigth: 50px;
-  color: white
-  left: 0;
-  bottom: 0;
-  display: flex;
-  justify-content:center;
+   position: absolute;
+   width: 100%;
+   height: 50px;
+   color: rgb(0, 0, 0);
+   background: #4d0246;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
 }
 .conteudoHome {
-  position:absolute
-  top:  45px;
+   position: absolute;
+   top: 45px;
 }
-
-
-
+.logoGastao {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  
 }
